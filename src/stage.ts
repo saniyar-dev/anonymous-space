@@ -1,6 +1,6 @@
 import { Scenes, Telegraf } from "telegraf";
 import { SceneContext } from "telegraf/typings/scenes";
-import startScene from "./Scenes/startScene";
+import startScene from "./Modules/start/scene/startScene";
 
 const botStage = new Scenes.Stage([startScene]);
 

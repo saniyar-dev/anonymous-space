@@ -1,5 +1,6 @@
 {
   "FN": {
-    "start-message": "بات استارت خورد"
+    "start-message": "بات استارت خورد",
+    "forbidden-action": "اینکارو اینجا نمیتونی انجام بدی"
   }
 }
