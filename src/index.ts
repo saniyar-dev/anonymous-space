@@ -2,8 +2,8 @@ import { Telegraf, Scenes, session } from "telegraf";
 import * as dotenv from "dotenv";
 dotenv.config();
 import { SocksProxyAgent } from "socks-proxy-agent";
-import { setupStages } from "./stage";
-import { setupCommands } from "./commands";
+import { setupStages } from "./Scenes";
+import { setupCommands } from "./Commands";
 const proxyAgent = new SocksProxyAgent({
   hostname: "127.0.0.1",
   port: "1080",
