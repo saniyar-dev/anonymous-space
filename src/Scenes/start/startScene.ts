@@ -1,8 +1,7 @@
 import { Scenes } from "telegraf";
-import { getValue } from "../../../i18n/i18n";
-import StartController from "../controller/start.controller";
-import StartRepo from "../Repo/start.repo";
-import StartService from "../service/start.service";
+import StartController from "../../Modules/start/controller/start.controller";
+import StartRepo from "../../Modules/start/Repo/start.repo";
+import StartService from "../../Modules/start/service/start.service";
 
 const startScene = new Scenes.BaseScene<Scenes.SceneContext>("start-scene");
 
